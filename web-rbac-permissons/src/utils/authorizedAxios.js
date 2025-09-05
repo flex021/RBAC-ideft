@@ -4,6 +4,8 @@ import { handleLogoutAPI, refreshTokenAPI } from '~/apis'
 
 let authorizedAxiosInstance = axios.create()
 
+authorizedAxiosInstance.defaults.baseURL = 'https://rbac-ideft.onrender.com'
+
 authorizedAxiosInstance.defaults.timeout = 1000 * 60 * 10
 
 authorizedAxiosInstance.defaults.withCredentials = true
