@@ -38,7 +38,7 @@ function Login() {
       minHeight: '100vh',
       alignItems: 'center',
       justifyContent: 'flex-start',
-      background: 'url("src/assets/bg-img.jpeg")',
+      background: 'url("/bg-img.jpeg")',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
