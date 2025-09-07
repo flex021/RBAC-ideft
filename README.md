@@ -53,9 +53,9 @@ yarn dev
 
 </div>
 
-**Admin Login** → Role: Admin → Access: admin_tools + messages + support  
-**Moderator Login** → Role: Moderator → Access: messages + support → Denied: admin_tools  
-**Client Login** → Role: Client → Access: support only → Denied: messages + admin_tools  
+***Admin Login** → Role: Admin → Access: admin_tools + messages + support*
+***Moderator Login** → Role: Moderator → Access: messages + support → Denied: admin_tools*
+***Client Login** → Role: Client → Access: support only → Denied: messages + admin_tools*
 
 </div>
 
