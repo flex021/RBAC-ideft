@@ -36,9 +36,23 @@ export const MOCK_ROLES_LEVEL_3 = [
   }
 ]
 
-export const MOCK_USERS_LEVEL_3 = {
+export const MOCK_USERS_LEVEL_3_ADMIN = {
   ID: 'congthong2015-sample-id-12345678',
-  EMAIL: 'congthong2015@gmail.com',
-  PASSWORD: 'congthong2015@123',
+  EMAIL: 'admin-rbac@gmail.com',
+  PASSWORD: 'admin@123',
   ROLES: ['admin']
+}
+
+export const MOCK_USERS_LEVEL_3_MODERATOR = {
+  ID: 'congthong2015-sample-id-12345678',
+  EMAIL: 'moderator-rbac@gmail.com',
+  PASSWORD: 'moderator@123',
+  ROLES: ['moderator']
+}
+
+export const MOCK_USERS_LEVEL_3_CLIENT = {
+  ID: 'congthong2015-sample-id-12345678',
+  EMAIL: 'client-rbac@gmail.com',
+  PASSWORD: 'client@123',
+  ROLES: ['client']
 }
