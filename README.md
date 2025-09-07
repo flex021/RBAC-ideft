@@ -24,14 +24,14 @@ This mini-project demonstrates a **Role-Based Access Control (RBAC)** system wit
 
 ## Technical Implementation
 
-**Frontend** (`https://rbac-ideft.vercel.app`)
+**Frontend** (`http://localhost:5173`)
 ```bash
 cd web-rbac-permissions
 yarn install
 yarn dev
 ```
 
-**Backend** (`https://rbac-ideft.onrender.com`)
+**Backend** (`http://localhost:8080`)
 ```bash
 cd api-rbac-permissions
 yarn install
