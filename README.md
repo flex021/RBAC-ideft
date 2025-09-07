@@ -27,15 +27,15 @@ This mini-project demonstrates a **Role-Based Access Control (RBAC)** system wit
 **Frontend** (`https://rbac-ideft.vercel.app`)
 ```bash
 cd web-rbac-permissions
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 **Backend** (`https://rbac-ideft.onrender.com`)
 ```bash
 cd api-rbac-permissions
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 **Technology Stack:**
