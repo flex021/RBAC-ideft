@@ -4,7 +4,7 @@ import { handleLogoutAPI, refreshTokenAPI } from '~/apis'
 
 let authorizedAxiosInstance = axios.create()
 
-authorizedAxiosInstance.defaults.baseURL = 'https://rbac-ideft.onrender.com'
+authorizedAxiosInstance.defaults.baseURL = import.meta.env.VITE_API_URL || 'https://rbac-ideft.onrender.com'
 
 authorizedAxiosInstance.defaults.timeout = 1000 * 60 * 10
 
