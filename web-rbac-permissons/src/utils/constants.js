@@ -1,4 +1,4 @@
-export const API_ROOT = import.meta.env.VITE_API_URL || 'https://rbac-ideft.onrender.com'
+export const API_ROOT = import.meta.env.VITE_API_URL || 'http://localhost:8080'
 
 export const TAB_URLS = {
   DASHBOARD: 'dashboard',
