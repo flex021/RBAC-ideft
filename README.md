@@ -47,9 +47,9 @@ yarn dev
 ## Authentication Flow
 <div align="center">
 <div>
-  <img src="https://github.com/user-attachments/assets/c77ebade-790d-4214-a226-5a14917af30a" width="300" alt="Admin Dashboard" style="display:inline-block; margin:8px;">
-  <img src="https://github.com/user-attachments/assets/b32b40e5-8ff6-4e23-8699-496201f4990c" width="300" alt="Moderator Dashboard" style="display:inline-block; margin:8px;">
-  <img src="https://github.com/user-attachments/assets/99ecb8e4-9781-4ea4-8fcf-062464ec19e8" width="300" alt="Client Dashboard" style="display:inline-block; margin:8px;">
+  <img src="https://github.com/user-attachments/assets/c77ebade-790d-4214-a226-5a14917af30a" width="350" alt="Admin Dashboard" style="display:inline-block; margin:8px;">
+  <img src="https://github.com/user-attachments/assets/b32b40e5-8ff6-4e23-8699-496201f4990c" width="350" alt="Moderator Dashboard" style="display:inline-block; margin:8px;">
+  <img src="https://github.com/user-attachments/assets/99ecb8e4-9781-4ea4-8fcf-062464ec19e8" width="350" alt="Client Dashboard" style="display:inline-block; margin:8px;">
 
 </div>
 
