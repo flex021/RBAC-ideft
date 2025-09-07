@@ -129,9 +129,9 @@ This project requires Node.js >= 20.x:
 ```bash
 git clone <repository-url>
 cd web-rbac-permissions
-npm install
+yarn install
 cd ../api-rbac-permissions
-npm install
+yarn install
 ```
 
 ## Deployment
