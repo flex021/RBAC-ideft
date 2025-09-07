@@ -152,11 +152,6 @@ npm install
 
 **What I Learned:** Implementing hierarchical RBAC taught me efficient permission resolution and role inheritance, balancing security and usability.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request on GitHub for enhancements or bug fixes.
-
-
 
 ---
 
