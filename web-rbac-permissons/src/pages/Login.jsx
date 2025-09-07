@@ -11,6 +11,32 @@ import LogoIcon from '../assets/logo.png'
 import { API_ROOT } from '~/utils/constants'
 import authorizedAxiosInstance from '~/utils/authorizedAxios'
 import { useNavigate } from 'react-router-dom'
+import Table from '@mui/material/Table'
+import TableBody from '@mui/material/TableBody'
+import TableCell from '@mui/material/TableCell'
+import TableContainer from '@mui/material/TableContainer'
+import TableHead from '@mui/material/TableHead'
+import TableRow from '@mui/material/TableRow'
+import Paper from '@mui/material/Paper'
+
+function createData(name, calories, fat, carbs, protein) {
+  return { name, calories, fat, carbs, protein }
+}
+
+const users = [
+  {
+    email: 'admin-rbac@gmail.com',
+    password: 'admin@123'
+  },
+  {
+    email: 'moderator-rbac@gmail.com',
+    password: 'moderator@123'
+  },
+  {
+    email: 'client-rbac@gmail.com',
+    password: 'client@123'
+  }
+]
 
 function Login() {
   const { register, handleSubmit, formState: { errors } } = useForm()
@@ -47,14 +73,8 @@ function Login() {
       <form onSubmit={handleSubmit(submitLogIn)}>
         <Zoom in={true} style={{ transitionDelay: '200ms' }}>
           <MuiCard sx={{ minWidth: 380, maxWidth: 380, marginTop: '6em', p: '0.5em 0', borderRadius: 2 }}>
-            <Box sx={{ width: '70px', bgcolor: 'white', margin: '0 auto'}}>
+            <Box sx={{ width: '70px', bgcolor: 'white', margin: '0 auto' }}>
               <img src={LogoIcon} alt='trungquandev' width='100%' />
-            </Box>
-            <Box sx={{ display: 'flex', justifyContent: 'center', color: theme => theme.palette.grey[500] }}>
-              <Box>
-                <Typography>Hint: congthong2015@gmail.com</Typography>
-                <Typography>Pass: congthong2015@123</Typography>
-              </Box>
             </Box>
             <Box sx={{ padding: '0 1em 1em 1em' }}>
               <Box sx={{ marginTop: '1.2em' }}>
@@ -108,6 +128,31 @@ function Login() {
           </MuiCard>
         </Zoom>
       </form>
+
+      <TableContainer
+        component={Paper}
+        sx={{ maxWidth: 400, margin: 'auto', mt: 3, boxShadow: 3, marginBottom: '15px' }}
+      >
+        <Typography variant="subtitle1" align="center" sx={{ py: 1.5, fontWeight: 600 }}>
+        Demo Accounts
+        </Typography>
+        <Table size="small">
+          <TableHead>
+            <TableRow>
+              <TableCell>Email</TableCell>
+              <TableCell>Password</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {users.map((user, i) => (
+              <TableRow key={i}>
+                <TableCell sx={{ fontSize: 14 }}>{user.email}</TableCell>
+                <TableCell sx={{ fontSize: 14 }}>{user.password}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
     </Box>
   )
 }
