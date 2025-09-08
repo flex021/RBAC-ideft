@@ -20,7 +20,11 @@ This mini-project demonstrates a **Role-Based Access Control (RBAC)** system wit
 - 🔔 Real-time notifications with React Toastify
 - 📋 Demo users for immediate testing
 
+## Technical Highlights
 
+- Managed nested role-based access control (RBAC) with recursive logic
+- Built reusable React hooks to handle permissions and UI state
+- Integrated backend JWT authentication for secure API access
 
 ## Technical Implementation
 
