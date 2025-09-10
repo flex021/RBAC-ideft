@@ -38,14 +38,14 @@ This mini-project demonstrates a **Role-Based Access Control (RBAC)** system wit
 
 **Frontend** (`http://localhost:5173`)
 ```bash
-cd react-web
+cd web-rbac-permissions
 yarn install
 yarn dev
 ```
 
 **Backend** (`http://localhost:8080`)
 ```bash
-cd node-api
+cd api-rbac-permissions
 yarn install
 yarn dev
 ```
